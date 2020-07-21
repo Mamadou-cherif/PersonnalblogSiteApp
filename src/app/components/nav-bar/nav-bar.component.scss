@@ -1,0 +1,31 @@
+.nav-bar {
+    background-color: rgb(6, 196, 196);
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    font-weight: bolder;
+
+    }
+    button:focus {
+    outline: none;
+    border: 0;
+    }
+
+    .user-avatar {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        }
+
+        nav {
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            background-color: var(--background-tertiary);
+            color: var(--foreground-quaternary);
+            font-size: 1rem;
+          }

@@ -1,0 +1,90 @@
+.docs-example-viewer-body {
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    font-size: 14px;
+    }
+    .docs-example-viewer-wrapper {
+    border: 1px solid rgba(0, 0, 0, .03);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .24), 0 0 2px rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    margin: 1em auto;
+    background-color: #FFFFFF;
+    }
+    .entry-title {
+    margin: 20px;
+    }
+    .blog-info {
+    margin: 15px 20px 10px;
+    align-content: center;
+    align-items: center;
+    .fa-user {
+    margin-left: 10px;
+    }
+    }
+  
+    img{
+        height: 400px;
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 10px;
+    }
+  
+    #blogContent{
+        margin-left: -30px;
+        word-wrap: break-word;;
+    }
+  
+    .zoom-out img {
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .zoom-out a:hover img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .img-hover-zoom {
+        height: 300px; /* [1.1] Set it as per your need */
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+      }
+      /* [2] Transition property for smooth transformation of images */
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+      
+      /* [3] Finally, transforming the image when container gets hovered */
+      .img-hover-zoom:hover img {
+        transform: scale(1.5);
+      }
+      #entier{
+          margin-left: 0px;
+          word-wrap: break-word;
+      }
+
+
+      /* post slider*/
+      .post-slider{
+
+        border: 1px solid red;
+      }
+
+
+      .post-slider .post-wrapper{
+
+        width: 84%;
+        height: 350px;
+        margin:0px auto;
+        border: 1px dashed red;
+
+      }
+
+      .post-slider .post-wrapper .post{
+          height: 350px;
+          width: 300px;
+          display: inline-block;
+          background: cyan;
+      }
